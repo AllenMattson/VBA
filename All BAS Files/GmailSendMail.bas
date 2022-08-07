@@ -31,7 +31,7 @@ On Error GoTo ErrHandle
 
     With iMsg
         Set .Configuration = iConf
-        .To = "mattson.allen@gmail.com"   'this can be any email address
+        .To = "xyz@gmail.com"   'this can be any email address
         .CC = ""
         .BCC = ""
         .From = "xyz@gmail.com"    'MUST BE THE SAME AS USED ABOVE
