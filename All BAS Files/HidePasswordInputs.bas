@@ -149,7 +149,7 @@ End Function
 Sub TestDKInputBox()
     Dim x
      
-    x = InputBoxDK("Type your password here.", "Password Required", "Tjm10195!")
+         x = InputBoxDK("Type your password here.", "Password Required", "MySecret")
     If x = "" Then End
     'If x <> "yourpassword" Then
     '    MsgBox "You didn't enter a correct password."
@@ -181,7 +181,7 @@ On Error GoTo Handle
     xml.setRequestHeader "Content-Type", "content=text/html; charset=iso-8859-1"
     xml.Send
     
-    tResult = xml.responsetext 'you can view Twitter’s response in debug window
+    tResult = xml.responsetext 'you can view Twitterâ€™s response in debug window
     Debug.Print tResult
 Handle:
     If Err.Number = 13 Then
